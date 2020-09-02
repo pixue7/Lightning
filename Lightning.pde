@@ -4,7 +4,7 @@ void setup()
 }
 void draw()
 {
-
+ellipse(150,150,10,10);
 }
 void mousePressed()
 {
