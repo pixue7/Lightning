@@ -1,4 +1,3 @@
-
 void setup()
 {
   background(0,0,100);
@@ -25,10 +24,10 @@ void draw()
   rect(255,450,5,50);
   rect(245,400,5,50);
   fill(0,0,0);
-  ellipse(250,230,75,75);
+  ellipse(253,230,75,75);
 }
 void mousePressed()
 {
   fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
-  ellipse(250,230,75,75);
+  ellipse(253,230,75,75);
 }
