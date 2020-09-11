@@ -1,3 +1,4 @@
+
 void setup()
 {
   background(0,0,100);
@@ -12,7 +13,7 @@ void draw()
   fill(255,255,52);
   ellipse(250,50,50,50);
   fill(255,205,50);
-  ellipse(x,50,20,20);
+  ellipse(250,50,20,20);
   fill(153,153,153);
   triangle(250, -50, 300,50, 200, 50);
   fill(0,100,0);
