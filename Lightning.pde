@@ -1,8 +1,12 @@
+int startX = 250;
+int startY = 230;
+int endX = 270;
+int endY = 240;
 void setup()
 {
   background(0,0,100);
   size(500,500);
-  stroke(104,104,104);
+  stroke(150,150,150);
   frameRate(1);
 }
 void draw()
@@ -28,6 +32,9 @@ void draw()
 }
 void mousePressed()
 {
+  stroke((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
+  endX = startX + 9;
+  endY = startY - 9;
   fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
   ellipse(253,230,75,75);
 }
