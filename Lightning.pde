@@ -35,7 +35,7 @@ void draw()
   endX = (int)(Math.random()*10);
   endY = 9 + (int)(Math.random()*19);
   endX = startX + (int)(Math.random()*10);
-  endY = startY + (int)(Math.random()*19)+9;
+  endY = startY + (int)(Math.random()*19)+40;
   line(startX,startY,endX,endY);
   startY = endY;
   startX = endX;
