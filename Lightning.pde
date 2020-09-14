@@ -30,7 +30,6 @@ void draw()
   fill(219,112,147);
   ellipse(253,230,75,75);
   fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
-  stroke((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
   while(endY <= 250)
   {
   endX = (int)(Math.random()*10);
@@ -44,6 +43,7 @@ void draw()
 }
 void mousePressed()
 {
+  stroke((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
   fill(0,0,0);
   ellipse(253,230,75,75);
   startX = 250;
