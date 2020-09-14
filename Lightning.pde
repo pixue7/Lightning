@@ -1,7 +1,7 @@
 int startX = 250;
 int startY = 75;
 int endX = 250;
-int endY = 250;
+int endY = 200;
 void setup()
 {
   background(0,0,100);
@@ -30,7 +30,7 @@ void draw()
   fill(219,112,147);
   ellipse(253,230,75,75);
   fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
-  while(endY <= 250)
+  while(endY <= 200)
   {
   endX = (int)(Math.random()*10);
   endY = 9 + (int)(Math.random()*19);
@@ -49,5 +49,5 @@ void mousePressed()
   startX = 250;
   startY = 75;
   endX = 250;
-  endY = 250;
+  endY = 200;
 }
