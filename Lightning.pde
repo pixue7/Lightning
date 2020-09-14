@@ -27,7 +27,7 @@ void draw()
   rect(260,400,10,50);
   rect(255,450,5,50);
   rect(245,400,5,50);
-  fill(255,235,0);
+  fill(219,112,147);
   ellipse(253,230,75,75);
   fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
   stroke((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
