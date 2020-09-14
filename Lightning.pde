@@ -1,5 +1,5 @@
 int startX = 250;
-int startY = 0;
+int startY = 75;
 int endX = 250;
 int endY = 250;
 void setup()
@@ -47,7 +47,7 @@ void mousePressed()
   fill(0,0,0);
   ellipse(253,230,75,75);
   startX = 250;
-  startY = 0;
+  startY = 75;
   endX = 250;
   endY = 250;
 }
